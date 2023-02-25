@@ -1,7 +1,7 @@
 # Temperature Demo
 This is the script files behind the Google Sheet.
 
-See the [presentation]() for links to all the documenation.
+See the [presentation](http://bit.ly/3xQbWuH) for links to all the documenation.
 
 ### TemperatureDemo Sheet
 With some temperature and humidity samples. 
