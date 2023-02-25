@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h1>Set Logging Period</h1>
+    <p>Please enter the logging period to set in seconds. Set period to 0 to stop logging.</p>
+    <p>
+    <label>Period:</label><input name="period" type="text" /><br>
+    <button onclick="setPeriod()">Set Period</button>
+    <button onclick="google.script.host.close()">Close</button>
+    </p>
+    <script>
+    function setPeriod() {
+      google.script.run.setLoggingPeriod(
+        document.getElementsByName("period")[0].value
+      );
+    }
+    </script>
+  </body>
+</html>
+
+
